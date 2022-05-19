@@ -3,7 +3,7 @@
 
 class program
 {
- 
+
     static void Main(String[] args)
     {
 
@@ -13,25 +13,26 @@ class program
         string nome;
 
         Console.WriteLine("Qual o seu Nome? ");
-        nome= Console.ReadLine();
+        nome = Console.ReadLine();
 
         Console.WriteLine("Qual seu peso? ");
-        peso = Convert.ToDouble( Console.ReadLine());
+        peso = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("Qual sua altura? ");
         altura = Convert.ToDouble(Console.ReadLine());
 
-        resultado = ( peso / (altura * altura));
+        // resultado = ( peso / (altura * altura));
+       resultado = calcularImc(peso,altura);
 
-        Console.WriteLine(nome+" o seu Imc é "+resultado + "\n");
-        
+        Console.WriteLine(nome + " o seu Imc é " +resultado);
+
         if (resultado <= 18.5)
         {
             Console.WriteLine("abaixo do peso");
 
         }
 
-        if (resultado >= 18.6 && resultado <=24.90 )
+        if (resultado >= 18.6 && resultado <= 24.90)
         {
             Console.WriteLine("peso ideal");
 
@@ -41,16 +42,25 @@ class program
             Console.WriteLine("levemente acima do peso");
 
         }
-        if(resultado > 29.90)
+        if (resultado > 29.90)
         {
             Console.WriteLine("Vc está acima do peso! ");
         }
-        
+
 
 
 
 
     }
 
+
+    static double calcularImc(double peso, double altura)
+    {
+
+        double resultado = (peso / (altura * altura));
+
+        return resultado;
+
+    }
 
 }
