@@ -26,13 +26,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fatorial", "Fatorial\Fatori
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetor", "Vetor\Vetor.csproj", "{45398870-CDD4-43DC-B609-D3D7D7490372}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetorParImpar", "VetorParImpar\VetorParImpar.csproj", "{1E67E9F8-3C67-4418-88C6-BD696F68C1A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetorParImpar", "VetorParImpar\VetorParImpar.csproj", "{1E67E9F8-3C67-4418-88C6-BD696F68C1A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicacaoDeMatrizes", "MultiplicacaoDeMatrizes\MultiplicacaoDeMatrizes.csproj", "{68010D37-BC2D-4205-B4CE-0D36B3A2D84A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicacaoDeMatrizes", "MultiplicacaoDeMatrizes\MultiplicacaoDeMatrizes.csproj", "{68010D37-BC2D-4205-B4CE-0D36B3A2D84A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteAbrirGaveta", "TesteAbrirGaveta\TesteAbrirGaveta.csproj", "{063C6A72-776A-4032-93E1-17ED7B77172B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteAbrirGaveta", "TesteAbrirGaveta\TesteAbrirGaveta.csproj", "{063C6A72-776A-4032-93E1-17ED7B77172B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrizes", "Matrizes\Matrizes.csproj", "{1432AB40-47DE-4B9B-8DEA-7C9AB7F247D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrizes", "Matrizes\Matrizes.csproj", "{1432AB40-47DE-4B9B-8DEA-7C9AB7F247D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadastroDeContatos", "BdFake\CadastroDeContatos.csproj", "{FF2316BC-EF11-43F4-930A-789654376168}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +94,10 @@ Global
 		{1432AB40-47DE-4B9B-8DEA-7C9AB7F247D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1432AB40-47DE-4B9B-8DEA-7C9AB7F247D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1432AB40-47DE-4B9B-8DEA-7C9AB7F247D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF2316BC-EF11-43F4-930A-789654376168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF2316BC-EF11-43F4-930A-789654376168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF2316BC-EF11-43F4-930A-789654376168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF2316BC-EF11-43F4-930A-789654376168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
